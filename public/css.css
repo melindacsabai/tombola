@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-ct{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65vw;
+}
+
+.div-mezo{
+    border: 1px solid blue;
+    background-color: rgb(225, 244, 250);
+    font-size: 20px;
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 400;
+    position: relative;
+}
+.inactive-div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.76);
+
+}
+
+.div-mezo:hover{
+    box-shadow: 2px 2px 20px -8px #000; 
+    background-color: rgba(225, 244, 250, 0.514);
+    cursor: pointer;
+    scale:1.1;
+    
+}
+
+#start-btn,.vasarol-btn,.sorsolas-btn{
+    border-radius: 3px;
+    cursor: pointer;
+    width: 150px ;
+    height: 40px;
+    border: 2px solid rgb(207, 207, 207);
+    background-color: rgb(250, 250, 250);
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 2;
+    font-size:20px;
+    
+}
+
+#start-btn:hover,.vasarol-btn:hover,.sorsolas-btn:hover{
+    box-shadow: 2px 2px 20px -8px #000; 
+    background-color: rgba(225, 244, 250, 0.514);
+    cursor: pointer;
+    transform: scaleX(1.1);
+    
+}
+.sorsolas-btn{
+    display: none;
+}
+
+
+#induloszam{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(207, 207, 207);
+    margin-right: 10px;
+    outline: none;
+}
+.selected{
+    border: 2px solid rgba(207, 207, 207, 0.726);
+    background-color: rgba(250, 250, 250, 0.473);
+}
+.kivalasztva{
+    user-select: none;
+    border: 2px solid rgba(207, 207, 207, 0.726);
+    background-color: rgba(250, 250, 250, 0.473);
+
+}
